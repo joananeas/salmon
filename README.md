@@ -20,7 +20,7 @@ And the recommended columns (the names cannot be changed) data types:<br>
 ![Columns](./images/tutorial2.png)<br>
 
 <br>
->I'm working on a first-time installation form to create a Database and it's table and columns. Also i'm going to transalte the phishing website to English, for now it's still on Spanish.
+> I'm working on a first-time installation form to create a Database and it's table and columns. Also i'm going to transalte the phishing website to English, for now it's still on Spanish.
 
 # Status
 Not finished yet!
