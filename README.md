@@ -2,8 +2,17 @@
 Welcome to Salmon!
 This is an email and password grabber, which emulates the login page of Google (more soon).<br>
 It's developed by Joan Aneas (me), who started as a school project and now improved it to upload it to the web!<br>
-If you want to contribute in this project (the idea is to, in the future, have more than only one "emulation)<br>
+If you want to contribute in this project (the idea is to, in the future, have more than only one "emulation")<br>
 send me a dm at instagram: @joananeas_ :)
+
+## Demo
+Loading animations:
+![Loading-Demo](./images/demo-load.png)<br>
+Length of the email and "auto-filling" of "@gmail":
+![Length of email-Demo](./images/demo-length.png)<br>
+And fake error that redirects to real login page:
+![Error-Demo](./images/demo-error.png)<br>
+>More soon...
 
 # Configuration
 You will have to **access the configuration Wizard** to establish

