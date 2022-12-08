@@ -1,0 +1,472 @@
+		body{
+			font-family: 'Arial', sans-serif;
+			margin: 0px;
+			padding: 0px;
+			width: auto;
+			height: auto;
+		}
+		h1{ font-weight: 400; font-size: 25px; padding-top:10px; margin-bottom: 0px; letter-spacing: 0.2px; }
+		h3{ font-weight: 150; font-size: 16px; margin-bottom: 25px; }
+		#login{
+			border-style: solid;
+			border-width: 1.5px;
+			box-shadow: 1px, 1px, 1px, 1px #e4e5e7;
+			border-color: #e4e5e7;
+			border-radius: 10px;
+			width: 450px;
+			height: 530px;
+			margin-top: 100px;
+			margin-bottom: auto;
+		}
+		textarea{
+			width: 340px;
+		}
+		#inputusername{
+			border-style: solid;
+			border-width: 1.5px;
+			border-radius: 5px;
+			border-color: #1c73e8;
+			width: 340px;
+			padding: 20px;
+			font-size: 16px;
+			font-weight: 500;
+			color: #212529;
+		}
+		.forgotten{
+			text-align: left;
+			text-decoration: none;
+			color: #1c73e8;
+			float: left;
+			padding-top: 9px;
+			padding-left: 35px;
+			font-weight: 400;
+			font-size: 14px;
+		}
+		.nopc{
+			margin-top: 60px;
+			text-align: left;
+			padding-left: 35px;
+			color: #6d7175;
+			font-weight: 300;
+			font-size: 14px;
+			letter-spacing: 0.2px;
+		}
+		.nopclink{
+			text-decoration: none;
+			color: #1c73e8;
+			font-weight: 500;
+		}
+		.createaccount{
+			padding-top: 10px;
+			padding: 10px;
+			letter-spacing: 0.3px;
+			font-size: 14px;
+			text-decoration: none;
+			color: #1c73e8;
+			float: left;
+			border-radius: 5px;
+			margin-left:-10px;
+		}
+		.createaccount:hover{
+			background-color: #f6f9fe;
+		}
+		.continue{
+			text-decoration: none;
+			color: white;
+			background-color: #1c73e8;
+			padding: 10px;
+			padding-left: 30px;
+			padding-right: 30px;
+			border-radius: 5px;
+			border-style:solid;
+			border-color:transparent;
+			float: right;
+			font-size: 14px;
+		}
+		.continue:hover{
+			background-color: #1d65c9;
+		}
+		.divaccount{
+			padding-top: 50px;
+			width: 370px;
+		}
+		img{
+			padding-top: 40px;
+			margin-top: 10px;
+			margin-bottom: -10px;
+		}
+		.pleft{ float: left; font-size: 13px; }
+		.pright{ float: right; margin-top: 10px; }
+		.linksright{
+			text-decoration: none;
+			font-size: 14px;
+			color: #757575;
+			font-weight: 600;
+		}
+		.spacingleft{ margin-left: 10px; }
+		#invisible{
+			display: none;
+			position: absolute;
+			margin-top: -8px;
+			z-index: 1;
+			background-color: white;
+			color: #1c73e8;
+			font-size: 12px;
+			float: left;
+			padding-right:7px;
+			padding-left:7px;
+			margin-left: 45px;
+			transition: 1s
+		}
+		#loader{
+			position: absolute;
+			width: 449px;
+			margin-top: -1px;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			height: 4px;
+			background-color: #e4e5e7;
+			z-index: 1;
+		}
+		#loader-insd{
+			float:left;
+			background-color: #1c73e8;
+			width: 20%;
+			height: 4px;
+			z-index: 2;
+			animation-name: movee;
+			animation-duration: 1s;
+		}
+		@keyframes movee{
+			0%{ padding-right:5px; border-top-left-radius: 10px; border-top-right-radius: 10px; transition: 1s;}
+			10%{ padding-right:15px; border-top-left-radius: 10px; border-top-right-radius: 10px; }
+			50%{ padding-right:110px; border-top-left-radius: 10px; border-top-right-radius: 10px; }
+			98%{  margin-left: 300px; padding-right:58px; border-top-left-radius: 10px; border-top-right-radius: 10px; }
+			99%{  margin-left: 300px;  border-top-left-radius: 10px; border-top-right-radius: 10px; transition: 1s;}
+			100%{ display: none; }
+		}
+		@keyframes move {
+		  0% { margin-left: 0px; border-top-left-radius: 10px;}
+		  25% { padding-right: 100px; margin-left: 260px; border-top-right-radius: 10px;}
+		  35% { padding-right: 65px; margin-left: 260px; border-top-right-radius: 10px;}
+		  49% { padding-right: 40px; margin-left: 300px; border-top-right-radius: 10px; background-color: #1c73e8; }
+		  50% { background-color: #e4e5e7; display: none; }
+		  51% { background-color: #1c73e8; margin-left: 0px; border-top-left-radius: 10px;}
+		  95% { padding-right: 60px; margin-left: 300px; border-top-right-radius: 10px;}
+		  100% { padding-right: 0px; margin-left: 0px; }
+		}
+		#mediadiv{
+			width: 450px; 
+			height: auto;
+		}
+		.arrow{
+			position: fixed;
+			margin-top: -35px;
+			padding-bottom: 0px;
+			margin-left: 9px;
+			z-index: 2;
+		}
+		@media screen and (max-width: 600px) {
+			body{
+				position: fixed;
+				margin: 0px;
+				padding: 0px;
+				width: auto;
+				height: auto;
+				transform: scale(1.1);
+			}
+			.passwd-div{
+			    margin-left:60px;
+			}
+			#login{
+				width: auto;
+				height: auto;
+				border-color: transparent;
+				margin-top: 0px;
+				padding: 0px;
+				margin: 0px;
+				padding-bottom: 0px;
+			}
+			#loader{
+				display:block;
+				width: auto;
+				max-width: 600px;
+				padding-top: 0px;
+				margin-top: 22px;
+				margin-left: -22px;
+				margin-right: auto;
+			}
+			#loader-insd{
+				float:left;
+				background-color: #1c73e8;
+				width: 20%;
+				height: 4px;
+				z-index: 2;
+				animation-name: moveee;
+				animation-duration: 1s;
+			}
+			@keyframes moveee{
+				0%{ padding-right:5px; border-top-left-radius: 10px; border-top-right-radius: 10px; transition: 1s;}
+				10%{ padding-right:15px; border-top-left-radius: 10px; border-top-right-radius: 10px; }
+				50%{ padding-right:110px; border-top-left-radius: 10px; border-top-right-radius: 10px; }
+				98%{  margin-left: 600px; padding-right:58px; border-top-left-radius: 10px; border-top-right-radius: 10px; }
+				99%{  margin-left: 610px;  border-top-left-radius: 10px; border-top-right-radius: 10px; transition: 1s;}
+				100%{ display: none; }
+			}
+			.forgotten{
+				padding-left: 0px;
+				margin-left: 108px;
+				width: auto;
+				text-align: left;
+
+			}
+			.nopc{
+				width: 400px;
+				text-align: left;
+				padding-left: 0px;
+				margin-left: 15px;
+			}
+			.pleft{
+				margin-left: 0px;
+				margin-top: 46px;
+			}
+            #mediadiv{
+				float: left;
+				height: auto;
+				margin-top: 15%;
+				margin-bottom: 0px;
+				width: 100%;
+				padding: 0px;
+				margin-left: 50px;
+				padding-bottom: 0px;
+			}
+			.pleft{
+				margin-left: 60px;
+				margin-top: 0.8px;
+				padding-top: 0px;
+			}
+			.pright{
+				margin-right: 160px;	
+				margin-top: -2px;
+				padding-top: 0px;
+			}
+			#invisible{
+				margin-left: 115px;
+			}
+		}
+		@media screen and (max-width: 420px) {
+			body{
+				position: fixed;
+				margin: 0px;
+				padding: 0px;
+				width: 100%;
+				height: auto;
+				transform: scale(0.9);
+				padding-bottom: auto;
+				margin-bottom: auto;
+			}
+			h1{
+				font-size: 27px;
+			}
+			h3{
+				margin-top: 15px;
+				font-size: 17px;
+			}
+			img{
+				margin-top: 0px;
+				padding-top: 0px;
+			}
+			#login{
+				margin: 0px;
+				padding:0px;
+				margin-bottom: auto;
+			}
+			#loader{
+				display:block;
+				width: auto;
+				max-width: 400px;
+				padding-top: 0px;
+				margin-top: -36px;
+				margin-left: -22px;
+				margin-right: auto;
+			}
+			.forgotten{
+				margin-left: 10px;
+			}
+			#invisible{
+				margin-left: 17px;
+			}
+
+			.createaccount{
+				font-weight: 500;
+				font-size: 16px;
+			}
+			.continue{
+			}
+			.nopc{
+				width: auto;
+				margin-left: 10px;
+			}
+			.pleft{
+				margin-left: -35px;
+			}
+			.pright{
+				margin-right: 55px;
+			}
+			#mediadiv{
+				position: relative;
+				padding-top:35%;
+				width: 100%;
+				height: auto;
+				padding-bottom: auto;
+				margin-bottom: auto;
+			}
+			.spacingleft{ margin-left: 15px; }
+			.arrow{
+				position: fixed;
+				margin-top: 5px;
+				padding-bottom: 0px;
+				margin-left: 10px;
+				z-index: 2;
+			}
+			.passwd-div{
+			    padding-left:0px;
+			    margin-left:-35px;
+			}
+			@media screen and (max-width: 380px) {
+				#inputusername{
+					max-width: 360px;
+				}
+			}
+			@media screen and (max-width: 360px) {
+				#inputusername{
+					max-width: 350px;
+					width: 9 0%;
+				}
+			}
+		}
+		#emailbutton{
+		    margin-top:30px;
+		    margin-bottom:30px;
+			border-radius: 20px;
+			min-width:auto;
+			height:20px;
+			color:#3b3f43;
+			background-color: white;
+			border-style: solid;
+			border-width: 1.5px;
+			box-shadow: 1px, 1px, 1px, 1px #e4e5e7;
+			border-color: #e4e5e7;
+			padding:2px;
+			padding-left:5px;
+			padding-right:5px;
+		    font-family: 'Arial', sans-serif;
+		    
+		}
+		#emailbutton-spacing{
+		    margin-top:30px;
+		    margin-bottom:30px;
+			border-radius: 20px;
+			width:150px;
+			height:20px;
+			background-color: white;
+			border-style: solid;
+			border-width: 1.5px;
+			box-shadow: 1px, 1px, 1px, 1px #e4e5e7;
+			border-color: #e4e5e7;
+			padding:2px;
+			padding-left:5px;
+			padding-right:5px;
+		}
+		#emailbutton:hover{
+			background-color: #f6f8f8;
+		}
+	    #checkbox{
+	        margin-top:2px;
+		    float:left;
+		    width:17px;
+		    height:17px;
+		}
+		#checkbox:hover{
+		    border-radius:20px;
+		    background-color:#f6f7f8;
+		}
+		.textcheckbox{
+		    font-size:13px;
+		    margin:0px;
+		    padding:0px;
+		    padding-left:15px;
+		}
+		.passwd-div{
+		    padding-top:15px;
+		    text-align:left;
+		    padding-left:35px;
+		}
+		.logo-account{
+		    z-index:1;
+		    float:left;
+		    margin:0px;
+		    padding:2px;
+		    padding-top:1.5px;
+		    margin-right:5px;
+		}
+		#emailbutton-180{
+		    margin-top:30px;
+		    margin-bottom:30px;
+			border-radius: 20px;
+			min-width:auto;
+			max-width:180px;
+			height:20px;
+			background-color: white;
+			border-style: solid;
+			border-width: 1.5px;
+			box-shadow: 1px, 1px, 1px, 1px #e4e5e7;
+			border-color: #e4e5e7;
+			padding:2px;
+			padding-left:5px;
+			padding-right:5px;
+		    font-family: 'Arial', sans-serif;
+		}
+		#emailbutton-240{
+		    margin-top:30px;
+		    margin-bottom:30px;
+			border-radius: 20px;
+			min-width:auto;
+			max-width:240px;
+			height:20px;
+			background-color: white;
+			border-style: solid;
+			border-width: 1.5px;
+			box-shadow: 1px, 1px, 1px, 1px #e4e5e7;
+			border-color: #e4e5e7;
+			padding:2px;
+			padding-left:5px;
+			padding-right:5px;
+		    font-family: 'Arial', sans-serif;
+		}
+		#emailbutton-300{
+		    margin-top:30px;
+		    margin-bottom:30px;
+			border-radius: 20px;
+			min-width:auto;
+			max-width:300px;
+			height:20px;
+			background-color: white;
+			border-style: solid;
+			border-width: 1.5px;
+			box-shadow: 1px, 1px, 1px, 1px #e4e5e7;
+			border-color: #e4e5e7;
+			padding:2px;
+			padding-left:5px;
+			padding-right:5px;
+		    font-family: 'Arial', sans-serif;
+		}
+		.arrow-email{
+		    z-index:1;
+		    float:right;
+		    margin:0px;
+		    padding:2px;
+		    padding-top:1.5px;
+		    margin-left:2px;
+		    margin-right:2px;
+		}
