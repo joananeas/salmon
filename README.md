@@ -6,11 +6,11 @@ If you want to contribute in this project (the idea is to, in the future, have m
 send me a dm at instagram: @joananeas_ :)
 
 ## Demo
-Loading animations:
+Loading animations:<br>
 ![Loading-Demo](./images/demo-load.png)<br>
-Length of the email and "auto-filling" of "@gmail":
+Length of the email and "auto-filling" of "@gmail":<br>
 ![Length of email-Demo](./images/demo-length.png)<br>
-And fake error that redirects to real login page:
+And fake error that redirects to real login page:<br>
 ![Error-Demo](./images/demo-error.png)<br>
 >More soon...
 
