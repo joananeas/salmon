@@ -13,9 +13,14 @@ all the Database parameters (on first-time installation), at:
 ```
 Also, to view the "grabs" you'll have to go to ```/admin```.
 <br>
-To be able to upload the data to a database, you have to create a db **with a table named "grabs" and with at least 2 columns ("email", "passwd")**.
+To be able to upload the data to a database, you have to create a db **with a table named "grabs" and with at least 2 columns ("email", "passwd")**.<br>
+The name of the Database doesn't matter, because it can be changed at the dashboard.<br>
+![Create a Table](./images/tutorial1.png)<br>
+And the recommended columns (the names cannot be changed) data types:<br>
+![Columns](./images/tutorial2.png)<br>
+
 <br>
->I'm working on a first-time installation form to create a Database and it's table and columns.
+>I'm working on a first-time installation form to create a Database and it's table and columns. Also i'm going to transalte the phishing website to English, for now it's still on Spanish.
 
 # Status
 Not finished yet!
